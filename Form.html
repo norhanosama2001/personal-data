@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <form>
+        <fieldset style="height: 600px;background-color:#E2BFB3;">
+            <legend style="background-color:#897f79;color: white; width:100px;height: 30px;">Personal Data</legend>
+            <br />
+            <br />
+            <fieldset style="height:150px;background-color:#e9e6e5;">
+                <legend style="background-color:#F7DED0; height: 55px; color:black;"> <br>Your name</legend>
+                <br/>
+                <br/>
+                <table>
+                    <tr>
+                        <td> first name
+                             : </td>
+                        <td><input type="text" name
+                            ="first name
+                            " placeholder="ex.Norhan" required maxlength="10"
+                                minlength="2" /></td>
+                    </tr>
+                    <tr>
+                        <td> second name : </td>
+                        <td><input type="text" name="second name" placeholder="ex.Osama" required maxlength="10"
+                                minlength="2" /></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br />
+            <br />
+            <table>
+                <tr>
+                    <td><label for="userPhone">Your Phone</label></td>
+                    <td><label>:</label></td>
+                    <td><input id="userPhone" name="your phone" type="tel" /></td>
+                </tr>
+                <tr>
+                    <td><label for="userEmail">Email</label></td>
+                    <td><label>:</label></td>
+                    <td><input id="userEmail" name="your email" type="email" /></td>
+                </tr>
+                <tr>
+                    <td><label for="userPass">Password</label></td>
+                    <td><label>:</label></td>
+                    <td><input id="userPass" name="your password" type="password" /></td>
+                </tr>
+                <tr>
+                    <td><label for="userre-Pass">Re-Password</label></td>
+                    <td><label>:</label></td>
+                    <td><input id="userre-Pass" name="your re-password" type="password" /></td>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <input type="radio" name="gender" value="fem" id="female" />
+            <label for="female"> Female</label>
+            <br/>
+            <input type="radio" name="gender" value="mal" id="male" />
+            <label for="male"> Male</label>
+            <br />
+            <br/>
+            <input type="checkbox" name="status" value="stu" id="student" />
+            <label for="student"> Student</label>
+            <br/>
+            <input type="checkbox" name="status" value="gra" id="graduated" />
+            <label for="graduated"> Graduated</label>
+            <br />
+            <br/>
+            
+            <select name
+            ="type of plant">
+                <option hidden disabled selected>choose type for plant</option>
+                <optgroup label="Carnivorous plants">
+                    <option value="VF">Venus Flytrap</option>
+                    <option value="Ut">Utricularia</option>
+                    <option value="PV">Pinguicula vulgaris</option>
+                </optgroup>
+                <optgroup label="Non-predatory plants" disabled>
+                    <option value="H">Herbs</option>
+                    <option value="Sh">Shrubs</option>
+                    <option value="Tr">Trees</option>
+                </optgroup>
+
+            </select>
+            <br />
+            <br />
+
+
+            <input type="image" alt="submit" src="./img/images.jpg" width="90" />
+            <!--another solution for image-->
+            <!--<button type="submit">
+                <img src="./img/images.jpg" alt="submit" width="80"/>
+              </button>-->
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
